@@ -1,10 +1,10 @@
 var mysql = require("mysql");
 
 var connection = mysql.createConnection({
-    host: '127.0.0.1',
-    database: 'control_tower',
-    user: 'root',
-    password: 'rohit@123',
+    host: 'project.cdfivukvrchj.us-east-1.rds.amazonaws.com',
+    database: 'project',
+    user: 'admin',
+    password: 'Root#123',
     connectionLimit: 10,
 });
 
